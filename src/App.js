@@ -1,5 +1,3 @@
-
-
 import FeedbackList from './components/FeedbackList'
 import Header from './components/Header'
 import FeedbackStats from './components/FeedbackStats'
