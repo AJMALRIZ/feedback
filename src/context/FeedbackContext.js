@@ -34,7 +34,7 @@ export const FeedbackProvider = ({children}) => {
     const data = await response.json()
 
         // newFeedback.id = uuidv4()
-        setFeedback([newFeedback, ...feedback])
+        setFeedback([data, ...feedback])
       }
     
     const deleteFeedback = async(id) => {
